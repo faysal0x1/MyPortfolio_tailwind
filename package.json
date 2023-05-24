@@ -5,6 +5,7 @@
     "dev": "vite --open",
     "build": "vite build",
     "css": "tailwindcss -i ./assets/css/styles.css -o ./dist/output.css --watch",
+    "build-tailwind": "npx tailwindcss -i ./assets/css/style.css -o ./dist/output.css --watch",
     "serve": "vite preview"
   },
   "devDependencies": {
