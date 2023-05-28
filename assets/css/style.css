@@ -20,9 +20,18 @@ body {
 }
 
 .btn {
-  @apply text-white bg-secondary md:px-8 py-[14px] rounded-full px-5 text-xs md:text-sm shadow-md my-6;
+  @apply text-white bg-secondary md:px-8 py-[14px] rounded-full px-5 text-xs md:text-sm shadow-md my-6 hover:bg-slate-500;
 }
 
 .checkList ul li {
-  @apply mb-1;
+  @apply mb-1 text-[14px] leading-relaxed font-light;
+}
+
+@layer components{
+  .skills i{
+    @apply text-xl md:text-5xl
+  }
+  .tools p{
+    @apply text-xs;
+  }
 }

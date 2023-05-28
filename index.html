@@ -14,10 +14,10 @@
 
 <body class="bg-primary text-white  ">
     <!-- # column -->
-    <div class="flex flex-col md:flex-row ">
+    <div class="flex z-6 flex-col md:flex-row ">
         <!-- Left Side Column -->
 
-        <div class="md:w-[22%] md:fixed z-20">
+        <div class="md:w-[22%] z-5  md:fixed z-20">
 
             <div class="flex flex-col py-4 px-6">
                 <!-- Bio Section -->
@@ -73,9 +73,9 @@
             </div>
 
             <!-- Social Profiles -->
-            <div class="px-6">
+            <div class="px-6 text-center">
                 <h2>Social Profiles</h2>
-                <div class="flex flex-row gap-6 text-2xl ">
+                <div class="flex flex-row gap-6 text-2xl justify-center">
                     <a href="">
                         <i class="fa-brands fa-github"></i>
                     </a>
@@ -87,22 +87,24 @@
                     </a>
 
                 </div>
+                <hr class="border-2 rounded-md my-6 ">
             </div>
             <!-- Social Profiles End -->
+          
 
 
         </div>
         <!-- Left Column End -->
         <!-- Middle Column -->
-        <div class="mt-5 md:absolute container right-0 left-auto md:max-w-[79%] md:shadow-lg md:shadow-black">
+        <div class="mt-5 z-99 md:absolute container right-0 left-auto md:max-w-[79%] md:shadow-lg md:shadow-black">
 
             <!-- Home Section -->
-            <section id="home" class="px-12  border-b border-red-500 md:py-16 max-w-[95%] ">
+            <section id="home" class="px-8 md:px-12  border-b border-red-500 md:py-16 max-w-[95%] ">
                 <div class="mb-12 md:mt-7 ">
-                    <p class="text-3xl font-semibold">Hi, I am</p>
-                    <p class="text-3xl font-semibold">Ahmed Faysal</p>
-                    <p class="text-3xl font-semibold">A Web Application Developer</p>
-                    <p class="text-[16px] mt-4">Generally, I create Fullstack Website, Web Application and RESTfulAPI's
+                    <p class="text-2xl md:text-3xl font-semibold">Hi, I am</p>
+                    <p class="text-2xl md:text-3xl font-semibold">Ahmed Faysal</p>
+                    <p class="text-xl mt-3 md:mt-0 md:text-3xl font-semibold">A Web Application Developer</p>
+                    <p class="text-[14px] md:text-[16px] mt-4 ">Generally, I create Fullstack Website, Web Application and RESTfulAPI's
                         using
                         <br>
                         LAMP Stack, Tailwind, Redux ToolKit, JavaScript, PHP and Laravel
@@ -135,31 +137,32 @@
 
                 </div>
 
-                <button class="btn">Contact
+                <button class="btn ">Contact
                     Me</button>
+
+                    
 
 
             </section>
 
-
+            
             <!-- Home Section End -->
 
 
 
             <!-- About Section -->
-            <!-- <section id="about" class="border-b border-red-500 py-12 container max-w-6xl mx-auto"> -->
-            <section id="about" class="px-12 border-b border-red-500 py-12 max-w-[95%]">
+            <section id="about" class="px-6 md:px-12 border-b border-red-500 py-12 max-w-[95%]">
 
                 <div class="max-w-[95%]">
-                    <h2 class="text-2xl md:text-3xl font-semibold my-2 mb-4">About Me</h2>
-                    <hr class="w-[35%] border-1 rounded-full">
+                    <h2 class="text-xl md:text-3xl font-semibold my-2 mb-4">About Me</h2>
+                    <hr class="w-[35%] border-1 my-3 rounded-full">
 
-                    <h2 class="text-xl  border-l-2 pl-2
-                my-2  border-red-500">A passionate programmer with profound knowledge in Data Structures & Algorithms &
+                    <h2 class="text-md md:text-xl  border-l-2 pl-2
+                my-2  border-red-500 text-justify">A passionate programmer with profound knowledge in Data Structures & Algorithms &
                         love to explore new technologies</h2>
 
-                    <p class="text-md mt-2 w-[95%] leading-relaxed tracking-wide">
-                        Hello, I'm Zisanur Haque a passionate Fullstack Web Developer and Programmer. I develop web
+                    <p class="text-[14px] md:text-md mt-2 w-full md:w-[95%] text-justify">
+                        Hello, I'm <span class="text-red-700">Ahmed Faysal</span>  a passionate Fullstack Web Developer and Programmer. I develop web
                         applications and REST API in MERN Stack. Mainly I'm working with development frameworks like
                         React Js for frontend and Node & Express Js for backend. I'm working hard to improve my skills
                         and have passion in programming. There is lot of study in 2yrs makes me familiar with
@@ -168,7 +171,7 @@
                         any programming language and development framework at anytime. I'm now working as a freelance
                         web developer and now I want to work with an organization.
                     </p>
-                    <p class="text-md mt-2 w-[95%] leading-relaxed tracking-wide md:mt-3">
+                    <p class="text-[16px] md:text-md mt-2 w-full md:w-[95%] leading-normal text-justify md:tracking-wide  md:mt-3">
                         I don't know yet whether it is making our world a better place or not, but it does help us to
                         make our life easier & better to live in this competitive world.
                     </p>
@@ -179,41 +182,41 @@
 
 
             <!-- Skills Section -->
-            <section id="skills" class="max-w-[95%]">
+            <section id="skills" class="md:max-w-[95%] skills">
                 <!-- <div class="max-w-[95%]"> -->
-                <h2 class="px-5 py-3 bg-cyan-900 text-2xl text-left">
+                <h2 class="px-2 md:px-5 py-3 bg-cyan-900 text-2xl text-left">
                     Skills
                 </h2>
                 <div class="border border-cyan-400 mt-5 ">
-                    <h3 class="text-xl font-semibold p-3 bg-amber-50 text-black">Web technologies</h3>
-                    <div class="p-5 border border-cyan-400">
-                        <h3 class="text-xl font-semibold p-3 bg-amber-50 text-black">Front End</h3>
-                        <div class="p-5 border border-cyan-400">
-                            <h3 class="text-xl font-semibold px-3 bg-amber-50 text-black">Tools</h3>
-                            <div class="flex flex-row py-5 gap-9 justify-between border border-cyan-400 px-4">
+                    <h3 class="text-md md:text-xl font-semibold p-3 bg-amber-50 text-black">Web technologies</h3>
+                    <div class="p-2 md:p-5 border border-cyan-400">
+                        <h3 class="text-md md:text-xl font-semibold p-2 md:p-3 bg-amber-50 text-black">Front End</h3>
+                        <div class="p-2 md:p-5 border border-cyan-400">
+                            <h3 class="text-md md:text-xl font-semibold px-3 bg-amber-50 text-black">Tools</h3>
+                            <div class="grid grid-cols-4 md:flex md:flex-row py-5 gap-9 justify-between border border-cyan-400 px-4 tools">
                                 <div>
-                                    <i class="fa-brands fa-html5  text-5xl" style="color: #51491f;"></i>
+                                    <i class="fa-brands fa-html5 " style="color: #ffdb2a;"></i>
                                     <p>HTML</p>
                                 </div>
                                 <div>
-                                    <i class="fa-brands fa-css3-alt text-5xl" style="color: #51491f;"></i>
-                                    <p>HTML</p>
+                                    <i class="fa-brands fa-css3-alt " style="color: #ffdb2a;"></i>
+                                    <p>CSS</p>
                                 </div>
                                 <div>
-                                    <i class="fa-brands fa-square-js text-5xl" style="color: #51491f;"></i>
-                                    <p>HTML</p>
+                                    <i class="fa-brands fa-square-js " style="color: #ffdb2a;"></i>
+                                    <p>JS</p>
                                 </div>
                                 <div>
-                                    <i class="fa-brands fa-less text-5xl" style="color: #51491f;"></i>
-                                    <p>HTML</p>
+                                    <i class="fa-brands fa-less " style="color: #ffdb2a;"></i>
+                                    <p>LESS</p>
                                 </div>
                                 <div>
-                                    <i class="fa-brands fa-sass text-5xl" style="color: #51491f;"></i>
-                                    <p>HTML</p>
+                                    <i class="fa-brands fa-sass " style="color: #ffdb2a;"></i>
+                                    <p>SASS</p>
                                 </div>
                                 <div>
-                                    <i class="fa-brands fa-node text-5xl" style="color: #51491f;"></i>
-                                    <p>HTML</p>
+                                    <i class="fa-brands fa-node " style="color: #ffdb2a;"></i>
+                                    <p>NODE </p>
                                 </div>
                             </div>
 
@@ -221,13 +224,13 @@
                             <h3 class="text-xl font-semibold px-3 bg-amber-50 text-black md:mt-5">
                                 Frameworks/Libraries
                             </h3>
-                            <div class="flex flex-row py-5 gap-9 justify-between border  px-4">
+                            <div class="grid grid-cols-4 md:flex md:flex-row py-5 gap-9 justify-between border  px-4">
                                 <div>
                                     <i class="fa-brands fa-bootstrap text-6xl mb-2"></i>
                                     <p>Bootstrap</p>
                                 </div>
                                 <div>
-                                    <img src="assets/img/tailwind-css-icon.svg" class="w-[3.75rem] mb-4" alt="">
+                                    <img src="assets/img/tailwind-css-icon.svg" class="w-[2rem] md:w-[3.75rem] mb-2 md:mb-4" alt="">
                                     <p>Tailwind Css</p>
                                 </div>
                                 <div>
